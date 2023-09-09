@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My first task</title>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <div class="image-name-track">
+          <img
+            src="./my pictue 8.jpg"
+            alt="Abasz"
+            data-testid="slackDisplayImage"
+          />
+          <h1 data-testid="slackUserName">Abasz</h1>
+          <p data-testid="myTrack">Frontend</p>
+        </div>
+        <div class="time-day">
+          <div>
+            <p data-testid="currentDayOfTheWeek">
+              Current Day of the Week: <span id="current-day-Value"></span>
+            </p>
+          </div>
+          <div>
+            <p data-testid="currentUTCTime">
+              Current UTC Time: <span id="current-utc-time-value"></span>
+            </p>
+          </div>
+        </div>
+        <div class="github-link">
+          <a
+            href="https://github.com/kponky/personal_showcase_data"
+            target="_blank"
+            >GitHub Repo</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
